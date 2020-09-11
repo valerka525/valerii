@@ -18,7 +18,7 @@ $contact->message = $req->input('message');
 
 $contact->save();
 
-return redirect()->route('home')->with('success', 'Сообщение было добавлено!');
+return redirect()->route('home')->with('success', 'Сообщение было добавлено!!');
 
 
 }
