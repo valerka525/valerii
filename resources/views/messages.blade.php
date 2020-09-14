@@ -7,7 +7,7 @@
     <h3>{{ $el->subject }}</h3>
     <p>{{ $el->email }}</p>
     <small>{{ $el->created_at }}</small>
-    <a href="#"><button class="btn btn-warning">Детальней</button></a>
+    <a href="{{ route('contact-data-one', $el->id) }}"><button class="btn btn-warning">Детальней</button></a>
   </div>
   @endforeach
 @endsection
